@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'ActionManRegular';
+	src: url('fonts/Action_Man.eot');
+	src: local('?'), url('fonts/Action_Man.ttf') format('truetype'), url('fonts/Action_Man.svg#webfont') format('svg');
+}
+
+@font-face {
+	font-family: 'ActionManBold';
+	src: url('fonts/Action_Man_Bold.eot');
+	src: local('?'), url('fonts/Action_Man_Bold.ttf') format('truetype'), url('fonts/Action_Man_Bold.svg#webfont') format('svg');
+}
+
+@font-face {
+	font-family: 'BitstreamVeraSansRoman';
+	src: url('fonts/Vera-webfont.eot');
+	src: local('?'), url('fonts/Vera-webfont.woff') format('woff'), url('fonts/Vera-webfont.ttf') format('truetype'), url('fonts/Vera-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url(images/topbackground.png);
+	background-repeat: repeat-x;
+	background-color: #E1E1E1;
+        margin-top: 0px;
+}
+
+#menu {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -37px;
+  margin-bottom: 37px;
+}
+
+#menu li {
+  float: left;
+  list-style: none;
+  padding-right: 27px;
+  padding-left: 27px;
+}
+
+#menu li#contactus {
+  border-right: none;
+}
+
+#menu li a, a:visited {
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: none;
+ color: #E1E1E1;
+}
+
+#menu li a:hover {
+ color: #0066FF;
+ text-decoration: underline;
+}
+
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 974px;
+  height: 256px;
+  background-image: url(images/header.png);
+  background-repeat: no-repeat;
+}
+
+#content {
+  background-image: url(images/leafbackground.png);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+  min-height: 327px;
+  display: block;
+  border: 1px solid white;
+}
+
+#content h1 {
+  font-family: 'ActionManBold';
+  font-size: 25px;
+  text-align: left;
+  padding: 10px;
+  color: #274646;
+}
+
+h1.padding {
+  margin-bottom: -7px;
+}
+
+#content p {
+  font-family: Verdana, "MS Serif", sans-serif;
+  font-size: 16px;
+  color: #274646;
+  padding: 10px;
+}
+
+#content p.center {
+  text-align: center;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+#content ul {
+  list-style: circle;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+#content li {
+  font-family: Verdana, "MS Serif", sans-serif;
+  font-size: 16px;
+  color: #274646;
+}
+
+#table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#table td {
+  font-family: Verdana, "MS Serif", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #274646;
+  border: 1px solid white;
+  padding: 4px;
+}
+
+
+#newsletter {
+  float: right;
+  color: #4EB060;
+  font-family: 'ActionManRegular';
+  font-size: 18px;
+  padding: 10px;
+  width: 250px;
+}
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-image: url(images/footer.png);
+  width: 970px;
+  height: 55px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#footer a, a:visited {
+  color: black;
+  font-family: 'BitstreamVeraSansRoman', MS Serif;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: #0066FF;
+  font-family: 'BitstreamVeraSansRoman', MS Serif;
+  font-size: 13px;
+}
+
+#footer span {
+  color: #353535;
+}
+
+/* From here to the next comment is the code that makes the current page underlined. */
+body#home a#home {
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+body#home a#home:hover {
+ color: #0066FF;
+ text-decoration: none;
+}
+body#landscape a#landscape {
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+body#landscape a#landscape:hover {
+ color: #0066FF;
+ text-decoration: none;
+}
+body#irrigation a#irrigation {
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+body#irrigation a#irrigation:hover {
+ color: #0066FF;
+ text-decoration: none;
+}
+body#gardencenter a#gardencenter{
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+body#gardencenter a#gardencenter:hover {
+ color: #0066FF;
+ text-decoration: none;
+}
+body#aboutus a#aboutus {
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+body#aboutus a#aboutus:hover {
+ color: #0066FF;
+ text-decoration: none;
+}
+body#contactus a#contactus {
+ font-family: 'ActionManRegular';
+ font-size: 20px;
+ text-decoration: underline;
+ color: #FFFFFF;
+}
+body#contactus a#contactus:hover {
+ color: #0066FF;
+ text-decoration: none;
+}
+
+* {
+	margin:0; 
+	padding:0;
+}
+
+#window {
+	clear:both;
+	width:559px;
+	height:206px;
+	background:#E1E1E1;
+	overflow:hidden;
+	position:relative;
+	left: 414px;
+	top: 0px;
+}
+
+#slideshow {
+	width:1118px; 
+	height:412px; 
+	overflow:hidden; 
+	position:relative;
+}
+
+#slideshow li {
+	width:559px; 
+	height:206px; 
+	float:left; 
+	display:inline;
+}
